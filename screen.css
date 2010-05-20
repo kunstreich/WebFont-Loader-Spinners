@@ -257,11 +257,12 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
 /* custom */
-body{padding:0;font:normal 100%/1.5 baskerville,'times new roman',serif;}
-h1{font-family:"ambroise-std-1","ambroise-std-2",serif;text-transform:uppercase;}
-h2{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",serif;font-size:1.5em;}
-h3{font-family:"ff-dax-compact-web-pro-1","ff-dax-compact-web-pro-2",serif;}
+body{padding:0;color:#999;font:normal 100%/1.5 baskerville,'times new roman',serif;}
+h1{font-family:"ambroise-std-1","ambroise-std-2",serif;text-transform:uppercase;color:#000;margin-bottom:1em;}
+h2{font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2",serif;font-size:1.5em;color:#999;}
+h3{font-family:"ff-dax-compact-web-pro-1","ff-dax-compact-web-pro-2",serif;color:#999;}
 blockquote{font-family:"ff-dax-web-pro-1","ff-dax-web-pro-2",serif;font-weight:100;font-style:italic;}
-blockquote.box{background:#999;color:#fff;}
+blockquote.box{background:#EFEEED;color:#999;}
 .container{padding-top:60px;z-index:1;}
-.container > div {margin-bottom: 2em;}
+.demo {margin-right:10px;}
+.demo p, .demo h2, .demo ul {color:#000;}
